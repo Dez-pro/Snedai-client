@@ -82,7 +82,7 @@ const InfoHome = () => {
         {/* CTA (Appel à l’action) */}
         <div className="mt-12" data-aos="fade-up" data-aos-delay="600">
           <a
-            href="/roles"
+            href="/login"
             className="inline-block px-8 py-3 rounded-full text-white bg-blue-700 font-semibold shadow-lg hover:bg-blue-800 transition"
           >
             Découvrir les espaces

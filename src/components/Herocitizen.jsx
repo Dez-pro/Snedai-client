@@ -36,7 +36,7 @@ const Herocitizen = () => {
           data-aos-delay="400"
         >
           <a
-            href="/analyse"
+            href="/donnees"
             className="inline-flex items-center px-8 py-3 rounded-full text-base font-semibold bg-white text-blue-700 shadow-lg hover:shadow-xl transition hover:bg-blue-50"
           >
             Explorer les données

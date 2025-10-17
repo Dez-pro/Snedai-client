@@ -28,7 +28,7 @@ const Footer = () => {
                             <li className="hover:text-slate-300 transition-all duration-300 "><a href="#hero">Accueil</a></li>
                             <li className="hover:text-slate-300 transition-all duration-300 "><a href="#service">Services</a></li>
                             <li className="hover:text-slate-300 transition-all duration-300 "><a href="#features">Fonctionnalités</a></li>
-                            <li className="hover:text-slate-300 transition-all duration-300 "><a href="#about">A propos</a></li>
+                            <li className="hover:text-slate-300 transition-all duration-300 " translate="no"><a href="#about">A propos</a></li>
                             
                         </ul>
                     </div>

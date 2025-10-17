@@ -70,7 +70,7 @@ const CitizenIntro = () => {
         {/* CTA */}
         <div className="mt-12" data-aos="fade-up" data-aos-delay="600">
           <a
-            href="/citoyen-info"
+            href="/donnees"
             className="inline-block px-8 py-3 rounded-full text-white bg-blue-700 font-semibold shadow-lg hover:bg-blue-800 transition"
           >
             En savoir plus
