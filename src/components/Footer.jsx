@@ -35,8 +35,8 @@ const Footer = () => {
                     <div>
                         <h2 className="font-semibold mb-5  text-slate-900">Info-Plus</h2>
                         <div className="text-sm space-y-2   text-white font-semibold">
-                            <p>+225-07-67-79-30-51</p>
-                            <p>contact@airdata.ci</p>
+                            <p>+225-05-55-40-27-96</p>
+                            <p>airdatapass@gmail.com</p>
                         </div>
                     </div>
                 </div>
