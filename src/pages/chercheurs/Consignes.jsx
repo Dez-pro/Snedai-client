@@ -99,7 +99,7 @@ const Consignes = () => {
       
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-green-50 py-8 px-4 sm:px-6 lg:px-8">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-12" data-aos="fade-up">
+          <div className="text-center mb-12" >
             <h1 className="text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-green-600">
               Guide Complet de la Qualité de l'Air
             </h1>
@@ -128,7 +128,7 @@ const Consignes = () => {
           <div className="space-y-8">
             {Object.entries(donneesPolluants).map(([polluant, data], idx) => (
               <div key={polluant} className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300"
-                   data-aos="fade-up"
+                   
                    data-aos-delay={200 + idx * 150}>
                 <div className="p-6 cursor-pointer"
                      onClick={() => setPolluantActif(polluantActif === polluant ? null : polluant)}>
@@ -149,7 +149,7 @@ const Consignes = () => {
 
                 <div className="px-6 pb-6">
                   <div className="grid md:grid-cols-2 gap-8">
-                    <div data-aos="fade-right" data-aos-delay={idx * 150 + 100}>
+                    <div  data-aos-delay={idx * 150 + 100}>
                       <div className="mb-6">
                         <h4 className="font-semibold text-red-700 mb-3 text-lg">🚨 Risques Sanitaires</h4>
                         <ul className="space-y-2">
@@ -181,7 +181,7 @@ const Consignes = () => {
                   </div>
 
                   {polluantActif === polluant && (
-                    <div className="mt-6 p-6 bg-gray-50 rounded-lg border border-gray-200" data-aos="fade-up" data-aos-delay={idx * 150 + 300}>
+                    <div className="mt-6 p-6 bg-gray-50 rounded-lg border border-gray-200"  data-aos-delay={idx * 150 + 300}>
                       <div className="grid md:grid-cols-2 gap-6">
                         <div>
                           <h4 className="font-semibold text-blue-700 mb-3 text-lg">🔍 Définition et Origines</h4>
@@ -209,7 +209,7 @@ const Consignes = () => {
                     </div>
                   )}
 
-                  <div className="mt-4 p-4 bg-blue-50 rounded-lg border border-blue-200" data-aos="fade-up" data-aos-delay={idx * 150 + 100}>
+                  <div className="mt-4 p-4 bg-blue-50 rounded-lg border border-blue-200" data-aos-delay={idx * 150 + 100}>
                     <p className="text-sm text-slate-900">
                       <strong> Consigne d'urgence :</strong> Au-delà de {data.seuil} {data.unite}, 
                       suivez immédiatement les précautions et consultez un médecin en cas de symptômes.
