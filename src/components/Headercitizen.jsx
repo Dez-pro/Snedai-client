@@ -25,8 +25,8 @@ const Headercitizen = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center text-2xl font-bold">
             <Database size={36} className="text-blue-600" />
-            <span className="text-black">Air</span>
-            <span className="text-blue-600">Data</span>
+            <span className="text-black" translate="no">Air</span>
+            <span className="text-blue-600" translate="no">Data</span>
           </Link>
 
           {/* Menu pour grands et moyens écrans */}

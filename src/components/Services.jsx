@@ -66,21 +66,6 @@ const Services = () =>  {
             grâce à une gestion rigoureuse des données.
           </p>
         </div>
-          {/* Partie 4: Environnement sain */}
-        <div className="max-w-72 w-full hover:-translate-y-0.5 transition duration-300">
-          <img
-            className="rounded-xl"
-            src="https://images.unsplash.com/photo-1713947501966-34897f21162e?w=1200&h=800&auto=format&fit=crop&q=60"
-            alt="UI Color Psychology"
-          />
-          <h3 className="text-base text-slate-900 font-medium mt-3">
-            Environnement protégé
-          </h3>
-          <p className="text-sm md:text-base mx-auto   max-md:px-2  text-slate-500  mt-1 max-w-lg ">
-            AirData contribue à un environnement sain, en aidant à lutter contre les effets de la dégradation naturelle 
-            grâce à une gestion rigoureuse des données.
-          </p>
-        </div>
       </div>
     </section>
   );

@@ -18,8 +18,8 @@ const Header = () => {
       <a href="#header" className="text-2xl font-bold">
         <div className="flex items-center">
           <Database size={36} className="text-blue-600" />
-          <span className="text-black">Air</span>
-          <span className="text-blue-600">Data</span>
+          <span className="text-black" translate="no">Air</span>
+          <span className="text-blue-600" translate="no">Data</span>
         </div>
       </a>
 

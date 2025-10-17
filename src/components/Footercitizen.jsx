@@ -10,8 +10,8 @@ const  Footercitizen = () => {
                     <a href="/" className="text-2xl font-bold">
                         <div className="flex items-center">
                             <Database size={36} className="text-blue-600" />
-                            <span className="text-black">Air</span>
-                            <span className="text-blue-600">Data</span>
+                            <span className="text-black" translate="no">Air</span>
+                            <span className="text-blue-600" translate="no">Data</span>
                         </div>
                     </a>
                     {/* Objectif du projet */}
@@ -23,7 +23,7 @@ const  Footercitizen = () => {
                 </div>
                 <div className="flex-1 flex items-start md:justify-end gap-20">
                     <div>
-                        <h2 className="font-semibold mb-5  text-slate-900">Navigations</h2>
+                        <h2 className="font-semibold mb-5  text-slate-900" translate="no">Links</h2>
                         <ul className="text-sm space-y-2 text-white font-semibold ">
                             <li className="hover:text-slate-300 transition-all duration-300 "><a href="/citizen">Accueil</a></li>
                             <li className="hover:text-slate-300 transition-all duration-300 "><a href="/donnees">Données</a></li>
