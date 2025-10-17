@@ -1,6 +1,6 @@
 import React from "react";
 
-const Predictons = () => {
+const Recherche = () => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-50 text-gray-800 text-center px-6">
       <img
@@ -25,4 +25,4 @@ const Predictons = () => {
   );
 };
 
-export default Predictons;
+export default Recherche;

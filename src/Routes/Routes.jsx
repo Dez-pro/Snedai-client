@@ -10,7 +10,7 @@ import SelectRole from "../pages/SelectRole";
 import Citizenhome from "../pages/Citizenhome";
 import Donnees from "../pages/chercheurs/Donnees";
 import Analyse from "../pages/chercheurs/Analyses";
-
+import Recherche from "../pages/chercheurs/Recherche";
 
 import { PowerBIProvider } from "../context/PowerBIProvider";
 
@@ -23,6 +23,7 @@ export const publicRoutes = [
   { path: "/forgetpassword", element: <ForgetPassword /> },
   { path: "/resetpassword/:token", element: <ResetPassword /> },
   { path: "/consignes", element: <Consignes /> },
+  { path: "/recherche", element: <Recherche /> },
   { path: "/predictions", element: <Predictions /> },
 ];
 
