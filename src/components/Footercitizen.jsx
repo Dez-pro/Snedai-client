@@ -37,6 +37,7 @@ const  Footercitizen = () => {
                         <div className="text-sm space-y-2   text-white font-semibold">
                             <p>+225-05-55-40-27-96</p>
                             <p>airdatapass@gmail.com</p>
+                            <p translate="no">Twitter</p>
                             <p>Facebook</p>
                             <p>LinkedIn</p>
                         </div>
