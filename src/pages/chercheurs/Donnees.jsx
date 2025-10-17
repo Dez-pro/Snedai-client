@@ -54,9 +54,10 @@ const Donnees = () => {
 
             <PowerBIEmbed
               key={reports.rapport1.key}
-              embedUrl="https://app.powerbi.com/view?r=eyJrIjoiZmU5MTJhNTItYTdhMy00ZjRmLWFiZmUtZjBlNDdhZTcxZmMwIiwidCI6ImIwNGI3ZTQ1LWMyYzgtNGFiNC04M2VlLTE4YmJiNzVlNmZhZSIsImMiOjh9&pageName=db64411f06e45cd74408"
-              pageName="db64411f06e45cd74408"
-              title="Vue en temps réel"
+                
+              embedUrl="https://app.powerbi.com/view?r=eyJrIjoiZmU5MTJhNTItYTdhMy00ZjRmLWFiZmUtZjBlNDdhZTcxZmMwIiwidCI6ImIwNGI3ZTQ1LWMyYzgtNGFiNC04M2VlLTE4YmJiNzVlNmZhZSIsImMiOjh9&pageName=61336cd1d38b4d245625"
+              pageName="61336cd1d38b4d245625"
+              title="Vue d'ensemble des données"
             />
           </div>
 
@@ -100,9 +101,9 @@ const Donnees = () => {
 
             <PowerBIEmbed
               key={reports.rapport2.key}
-              embedUrl="https://app.powerbi.com/view?r=eyJrIjoiZmU5MTJhNTItYTdhMy00ZjRmLWFiZmUtZjBlNDdhZTcxZmMwIiwidCI6ImIwNGI3ZTQ1LWMyYzgtNGFiNC04M2VlLTE4YmJiNzVlNmZhZSIsImMiOjh9&pageName=326fcc8581532779c1b0"
-              pageName="326fcc8581532779c1b0"
-              title="Comparaison des seuils"
+              embedUrl="https://app.powerbi.com/view?r=eyJrIjoiZmU5MTJhNTItYTdhMy00ZjRmLWFiZmUtZjBlNDdhZTcxZmMwIiwidCI6ImIwNGI3ZTQ1LWMyYzgtNGFiNC04M2VlLTE4YmJiNzVlNmZhZSIsImMiOjh9&pageName=994a9e6f23714ece2797"
+              pageName="994a9e6f23714ece2797"
+              title="analyse géographique des données"
             />
           </div>
         </section>
