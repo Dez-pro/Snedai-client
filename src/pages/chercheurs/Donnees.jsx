@@ -16,7 +16,7 @@ const Donnees = () => {
           {/* Titre général */}
           <div className="text-center mb-12">
             <h1 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">
-              Accédez aux données brutes des capteurs en temps réel
+              Accédez aux données des capteurs en temps réel
             </h1>
             <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
               Visualisation des flux de données collectées et mises à jour dynamiquement
